@@ -1,0 +1,13 @@
+#ifndef EXPONECIAL_H_
+
+#define EXPONENCIAL_H_
+
+
+/*PROTOTIPO DE FUNCIONES, MACROS, ETC.*/
+
+
+
+
+
+
+#endif

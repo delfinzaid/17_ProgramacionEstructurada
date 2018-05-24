@@ -6,6 +6,7 @@
 /*------------------------------------------------------------*/
 
 
+
 /*Declaración de bibliotecas*/
 #include <stdio.h>
 
@@ -29,8 +30,8 @@ enum {PROG, MATEDIS, MATII, TGS, ELECT}var1, var2, var3; /*Esto es un enum anón
 /*Declaración de la función principal*/
 int main(void)
 {
+	/*Impresión del valor que almacena el espacio "usado"*/
 	printf("%d\n",usado);
-
 
 
 	/*Imprimiendo el enum "MESES"*/
@@ -42,8 +43,38 @@ int main(void)
 			case EN:
 				printf("\n ENERO \n");
 			break;
+			case FE:
+				printf("\n Febrero \n");
+			break;
+			case MAR:
+				printf("\n Marzo \n");
+			break;
+			case AB:
+				printf("\n Abril \n");
+			break;
+			case MAY:
+				printf("\n Mayo \n");
+			break;
+			case JUN:
+				printf("\n Junio \n");
+			break;
+			case JUL:
+				printf("\n Julio \n");
+			break;
+			case AG:
+				printf("\n Agosto \n");
+			break;
+			case SE:
+				printf("\n Septiembre \n");
+			break;
 			case OC:
 				printf("\n OCTUBRE \n");
+			break;
+			case NO:
+				printf("\n Noviembre \n");
+			break;
+			case DI:
+				printf("\n Diciembre \n");
 			break;
 		}
 	}
@@ -52,9 +83,14 @@ int main(void)
 	
 	printf("\n");
 	
+
+	/*Impresión de var1, var2, var3*/
 	printf("%d ",var1);
+
 	printf("%d ",var2);
+
 	printf("%d ",var3);
+
 	printf("\n");
 
 	return 0;
